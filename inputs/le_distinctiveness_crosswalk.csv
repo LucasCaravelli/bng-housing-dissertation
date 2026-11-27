@@ -1,0 +1,19 @@
+le_class,ukhab_equivalent,distinctiveness_main,distinctiveness_alt,developable,note
+Arable and Horticultural,Cropland - cereal crops / arable,2,2,1,Low in the statutory metric
+Improved and Semi-Improved Grassland,Grassland - modified grassland,2,4,1,Mostly modified (Low); semi-improved can be other neutral grassland (Medium) -> alt
+Unimproved Grassland,Grassland - other neutral / acid / calcareous grassland,4,6,1,"LE 2022-23 class covering acid, calcareous and neutral unimproved grassland. Other neutral is Medium; lowland calcareous/acid/meadow priority types are High -> alt"
+"Broadleaved, Mixed and Yew Woodland",Woodland - other woodland; broadleaved,4,6,1,Medium; lowland mixed deciduous (priority) is High -> alt
+Coniferous Woodland,Woodland - other coniferous woodland,2,2,1,Low
+Scrub,Heathland and shrub - mixed scrub,4,4,1,Medium
+Bracken,Heathland and shrub - bracken,2,2,1,Low
+Dwarf Shrub Heath,Heathland and shrub - lowland/upland heathland,6,6,1,High (priority habitat)
+Bog,Wetland - blanket / lowland raised bog,8,8,1,Very High
+"Fen, Marsh and Swamp",Wetland - fens / reedbeds / purple moor grass,6,8,1,High; some fens Very High -> alt
+Bare Ground,Sparsely vegetated / ruderal / bare ground,2,6,1,Low; can be open mosaic on previously developed land (High) -> alt
+Coastal Saltmarsh,Littoral sediment - coastal saltmarsh,6,6,0,Not developable in practice; excluded from main denominator
+Coastal Sand Dunes,Coastal - sand dunes,6,6,0,Not developable in practice; excluded
+Bare Sand,Coastal sand / beach,2,2,0,Mostly beaches; excluded
+Water,Lakes / rivers / standing water,,,0,Excluded
+Built-up Areas and Gardens,Urban - developed land / vegetated garden,,,0,Defines settlements; excluded from the habitat measure
+Unclassified,,,,0,Excluded (not present in LE 2022-23)
+Solar Farms,Developed land (solar),,,0,Already developed; excluded like built-up land

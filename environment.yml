@@ -1,0 +1,33 @@
+# Python environment for the dissertation pipeline.
+# Create:   mamba env create -f environment.yml
+# Use:      conda activate bng-diss   (or call ~/miniforge3/envs/bng-diss/bin/python)
+# Exact versions used are frozen in environment.lock.yml.
+name: bng-diss
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # data and statistics
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - pyarrow        # parquet files (Price Paid, postcodes); added 26 Nov 2026 with Lucas's OK
+  # spatial
+  - geopandas
+  - pyogrio
+  - rasterio
+  - shapely
+  - pyproj
+  - libpysal
+  - esda
+  # figures
+  - matplotlib
+  # reading .ods files (Welsh DMQS releases)
+  - odfpy
+  # tests
+  - pytest
+  # pyfixest is published on PyPI only
+  - pip
+  - pip:
+      - pyfixest

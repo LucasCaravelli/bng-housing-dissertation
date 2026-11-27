@@ -1,0 +1,41 @@
+# Data never goes in git (size and licences: BBS, eBird, HMLR CCOD)
+data/
+processed/
+temp/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.tif
+*.tiff
+*.nc
+*.zip
+*.gz
+*.7z
+*.xlsx
+*.xls
+*.ods
+*.dta
+*.sav
+
+# ...except small hand-made tables the code depends on (own work, no licence issue)
+!inputs/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
